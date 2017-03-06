@@ -10,6 +10,6 @@ import java.rmi.RemoteException;
  */
 public interface IUserManager extends Remote {
 
-    public String getUserName() throws RemoteException;
-    public Account getAdminAccount() throws RemoteException;
+    String getUserName() throws RemoteException;
+    Account getAdminAccount() throws RemoteException;
 }
