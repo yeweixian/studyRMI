@@ -45,6 +45,8 @@ subprojects {
 
         compile("log4j:log4j:1.2.17")
 
+        compile("org.apache.thrift:libthrift:0.10.0")
+
         compile("org.apache.httpcomponents:httpclient")
 
         compile("org.springframework.boot:spring-boot-starter-web")
